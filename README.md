@@ -27,20 +27,20 @@ Although "shape" and "margin" are nominal data types, which sklearn typically do
 Technologies used
 -------------
 
-####Machine Learning Libraries Used in python3
+**Machine Learning Libraries Used in python3**
 ~~~
 Numpy
 Scikit Learn
 Pandas
 ~~~
 
-#####Requirements
+**Requirements**
 ~~~
 python 3.7.6
 pip3
 ~~~
 
-######To install dependencies
+**To install dependencies**
 ~~~
 pip install -r requirements.txt
 ~~~
