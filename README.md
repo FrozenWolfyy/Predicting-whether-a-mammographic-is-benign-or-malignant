@@ -1,6 +1,7 @@
 Predicting whether a mammographic mass is benign or malignant
 =====================
 
+A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results. If we can build a better way to interpret them through supervised machine learning, it could improve a lot of lives.
 
 
 Description of data
@@ -20,4 +21,31 @@ BI-RADS is an assesment of how confident the severity classification is; it is n
 
 Although "shape" and "margin" are nominal data types, which sklearn typically doesn't deal with well, they are close enough to ordinal that we shouldn't just discard them. The "shape" for example is ordered increasingly from round to irregular.
 
-A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results. If we can build a better way to interpret them through supervised machine learning, it could improve a lot of lives.
+
+
+
+Technologies used
+-------------
+
+####Machine Learning Libraries Used in python3
+~~~
+Numpy
+Scikit Learn
+Pandas
+~~~
+
+#####Requirements
+~~~
+python 3.7.6
+pip3
+~~~
+
+######To install dependencies
+~~~
+pip install -r requirements.txt
+~~~
+
+
+Conclusion
+-----------
+The only clear loser is decision trees! Every other algorithm could be tuned to produce comparable results with 79-80% accuracy with the highest being Logistic Regression by a very small margin.
